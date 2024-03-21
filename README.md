@@ -17,6 +17,13 @@ Aplicação Android que inclua uma tela de login funcional e a integração com 
 - **Firebase Firestore**: Para armazenar dados de usuário, como nome e endereço de e-mail.
 - **Android SDK**: Para o desenvolvimento da interface do usuário e lógica do aplicativo.
 
+## Futuras Implementações
+
+- [ ] Tornar as telas responsivas para outros dispositivos, pretendo desenvolver para tablet e notebook;
+- [ ] Melhorar as imagens de Login e Perfil do usuário.
+- [ ] Melhorar a experiência do usuário trazendo feedbacks mais atrativos e uma navegação mais flúida;
+- [ ] Desenvolver mais o projeto, mais telas e conteúdos para o usuário.
+
 ## Requisitos
 
 - Android Studio 2023 (ou versão mais recente)
