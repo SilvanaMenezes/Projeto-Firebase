@@ -48,15 +48,15 @@ Ao se cadastrar você é direcionado para a tela de perfil, onde suas credenciai
 ## Telas
 ### Tela de Login
 <p>Tela inicial do app.</p>
-<img src="" width="300">
+<img src="https://github.com/SilvanaMenezes/Projeto-Firebase/blob/main/app/src/main/res/values/assets/login.png" width="300">
 
 ### Tela de Cadastro
 <p>Tela de cadastro para novos usuários.</p>
-<img src="" width="300">
+<img src="https://github.com/SilvanaMenezes/Projeto-Firebase/blob/main/app/src/main/res/values/assets/cadastro.png" width="300">
 
 ### Tela de Perfil
 <p>Tela que mostra as credenciais do usuário.</p>
-<img src="" width="300">
+<img src="https://github.com/SilvanaMenezes/Projeto-Firebase/blob/main/app/src/main/res/values/assets/perfil.png" width="300">
 
 ## Desenvolvimento
 
@@ -75,6 +75,7 @@ Utilizei a playlist do canal <strong> [Stack Mobile](https://www.youtube.com/@St
 - [YouTube](https://youtube.com/playlist?list=PLizN3WA8HR1y0DMrcNIz8sZvzXzRM-WNQ&si=aB-BtaJLrla-aD2n) -  Projeto Firebase
 
 ## Simulação
+- [App Paz e Oração](https://github.com/SilvanaMenezes/Projeto-Firebase/blob/main/app/src/main/res/values/assets/video.webm)
 
 
 
