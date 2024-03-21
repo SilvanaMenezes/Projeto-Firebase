@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Projeto Firebase</string>
+    <string name="descricao_imagem">Igreja católica, céu azul e um campo verde</string>
+    <string name="email">Email</string>
+    <string name="senha">Senha</string>
+    <string name="entrar">Entrar</string>
+    <string name="text_cadastro">Crie uma conta clicando aqui</string>
+    <string name="title_cadastro">Cadastre-se</string>
+    <string name="nome">Nome</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="deslogar">Deslogar</string>
+    <string name="nomeApp">Paz e Oração</string>
+    <string name="subtituloApp">Seu App para aprender a rezar.</string>
+</resources>

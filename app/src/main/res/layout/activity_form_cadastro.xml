@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".FormCadastro">
+
+    <TextView
+        android:id="@+id/title_cadastre_se"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_cadastro"
+        android:fontFamily="@font/akaya_telivigala"
+        android:textSize="50sp"
+        android:textColor="@color/rosa"
+        android:layout_marginTop="100dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+    />
+
+    <View
+        android:id="@+id/container_componentes"
+        style="@style/ContainerComponents"
+        app:layout_constraintTop_toBottomOf="@id/title_cadastre_se"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+    />
+
+    <EditText
+        android:id="@+id/edit_nome"
+        style="@style/Edit_Text"
+        android:hint="@string/nome"
+        android:textColorHint="@color/black"
+        android:inputType="text"
+        app:layout_constraintTop_toTopOf="@id/container_componentes"
+        app:layout_constraintStart_toStartOf="@id/container_componentes"
+        app:layout_constraintEnd_toEndOf="@id/container_componentes"
+    />
+
+    <EditText
+        android:id="@+id/edit_email"
+        style="@style/Edit_Text"
+        android:hint="@string/email"
+        android:textColorHint="@color/black"
+        android:inputType="textEmailAddress"
+        android:drawableEnd="@drawable/ic_email"
+        app:layout_constraintTop_toBottomOf="@id/edit_nome"
+        app:layout_constraintStart_toStartOf="@id/container_componentes"
+        app:layout_constraintEnd_toEndOf="@id/container_componentes"
+    />
+
+    <EditText
+        android:id="@+id/edit_senha"
+        style="@style/Edit_Text"
+        android:hint="@string/senha"
+        android:textColorHint="@color/black"
+        android:inputType="textPassword"
+        android:drawableEnd="@drawable/ic_eye"
+        app:layout_constraintTop_toBottomOf="@id/edit_email"
+        app:layout_constraintStart_toStartOf="@id/container_componentes"
+        app:layout_constraintEnd_toEndOf="@id/container_componentes"
+    />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bt_cadastrar"
+        style="@style/Button"
+        android:layout_marginTop="30dp"
+        android:text="@string/cadastrar"
+        app:layout_constraintTop_toBottomOf="@id/container_componentes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+    />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
